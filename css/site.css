@@ -12,7 +12,7 @@ body {
   color: hsl(218, 100%, 32%);
   max-width: calc(14px * 36);
   margin: 0 auto;
-  padding-top: 48px;
+  padding-top: 72px;
 }
 
 h1,
@@ -25,8 +25,13 @@ h6 {
   margin: 12px 0;
 }
 
+header h1::after {
+  content: '👋';
+  padding-left: 8px;
+}
+
 section {
-  margin-top: 32px;
+  margin-top: 48px;
 }
 
 li {
@@ -73,5 +78,5 @@ p + p {
 
 .type-700 {
   font-size: 30px;
-  line-height: 36px; 
+  line-height: 36px;
 }
